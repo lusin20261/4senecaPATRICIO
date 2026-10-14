@@ -2,8 +2,8 @@
   PALETA DE COLORES
 ======================================*/
 :root {
-    --color-primario: #5b5ff5;
-    --color-secundario: #ff8f70;
+    --color-primario: #7f1aad;
+    --color-secundario: #d87dd8;
 }
 
 /*======================================
@@ -25,7 +25,7 @@ body {
     );
 
     min-height: 100vh;
-    color: #333;
+    color: #514faa;
 }
 
 /*======================================
@@ -46,7 +46,7 @@ body {
         var(--color-secundario)
     );
 
-    color: white;
+    color: rgb(226, 205, 108);
 }
 
 .hero-content {
@@ -59,8 +59,8 @@ body {
     text-transform: uppercase;
 
     text-shadow:
-        0 0 10px rgba(255,255,255,.5),
-        0 0 30px rgba(255,255,255,.3);
+        0 0 10px rgba(73, 184, 58, 0.5),
+        0 0 30px rgba(39, 36, 173, 0.3);
 
     animation: flotar 3s ease-in-out infinite;
 }
@@ -84,14 +84,14 @@ main {
   TARJETAS
 ======================================*/
 .card {
-    background: white;
+    background: rgb(129, 41, 146);
 
     margin-bottom: 30px;
     padding: 30px;
 
     border-radius: 20px;
 
-    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+    box-shadow: 0 10px 25px rgba(20, 127, 141, 0.15);
 
     transition: .3s;
 }
@@ -135,9 +135,9 @@ footer {
 
     padding: 25px;
 
-    color: white;
+    color: rgb(141, 25, 25);
 
-    background: rgba(0,0,0,.15);
+    background: rgba(59, 194, 199, 0.15);
 
     backdrop-filter: blur(5px);
 }
